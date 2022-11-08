@@ -1,7 +1,7 @@
 import random
 import numpy as np
-import matrix_gen as mg
-import graph_vis as gv
+import matrix_gen_conversion as mg
+import graph_visualization as gv
 
 def in_graph(G, a, b):
     if G.shape[0] < (a+1) or G.shape[0] < (b+1):
